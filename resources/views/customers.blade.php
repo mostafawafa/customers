@@ -54,7 +54,7 @@
             <option @if(!empty($isValid) && $isValid == 1): selected @endif  value="1">valid</option>
             <option @if($isValid === "0"): selected @endif  value="0">Not valid</option>
         </select>
-        <input type="submit" value="Submit">
+        <input type="submit" value="click to filter">
 
 
     </form>
