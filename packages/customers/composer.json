@@ -1,0 +1,21 @@
+{
+    "name": "mostafaabouelwafa/customers",
+    "authors": [
+        {
+            "name": "mostafawafa",
+            "email": "mustafawafa20122@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.3",
+        "illuminate/collections": "^8.53",
+        "illuminate/redis": "^8.53",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Customers\\": "src/",
+            "Customers\\Tests\\": "tests/"
+        }
+    }
+}
