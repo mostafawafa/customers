@@ -2,7 +2,9 @@
 
 namespace App\Representations;
 
-Interface RepresentationInterface
+interface RepresentationInterface
 {
     public function toJson();
+
+    public function toArray();
 }
